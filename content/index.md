@@ -1,5 +1,6 @@
 ---
 Title: The future happens everywhere
+#redirect: http://futureconsf.com
 ---
 William Gibson once said that the future is already here, it’s just not evenly distributed. Geographical location and wealth could indeed limit access to considerable advances in technology. However, imagination is a more subtle power. It does not know borders or languages. From Beijing to Lagos, from Rio de Janeiro to Los Angeles, ideas are flourishing in the form of stories.
 
