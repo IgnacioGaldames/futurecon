@@ -9,3 +9,4 @@ relativeURLS = true
 		target = "assets/js/bootstrap.bundle.min.js"
 [Params]
 	#redirect = "http://futureconsf.com"
+	googleTagManager = "GTM-TLCXCPH"
