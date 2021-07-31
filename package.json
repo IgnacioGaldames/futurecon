@@ -1,0 +1,29 @@
+{
+  "name": "futurecon",
+  "version": "1.0.0",
+  "description": "futurecon sf website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioGaldames/futurecon.git"
+  },
+  "keywords": [
+    "futurecon",
+    "futureconsf",
+    "sf",
+    "science",
+    "fiction",
+    "convention"
+  ],
+  "author": "I. A. Galdames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnacioGaldames/futurecon/issues"
+  },
+  "homepage": "https://github.com/IgnacioGaldames/futurecon#readme"
+}
