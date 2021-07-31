@@ -1,0 +1,10 @@
+{{ if .Site.Params.redirect }}
+	<script>
+		window.location = "{{ .Site.Params.redirect }}";
+	</script>
+	{{ end}}
+	{{ if .Params.redirect }}
+	<script>
+		window.location = "{{ .Params.redirect }}";
+	</script>
+{{ end}}

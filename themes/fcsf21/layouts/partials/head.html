@@ -1,14 +1,5 @@
 <head>
-	{{ if .Site.Params.redirect }}
-		<script>
-			window.location = "{{ .Site.Params.redirect }}";
-		</script>
-	{{ end}}
-	{{ if .Params.redirect }}
-		<script>
-			window.location = "{{ .Params.redirect }}";
-		</script>
-	{{ end}}
+	{{- partial "head/redirect.html" . -}}
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
