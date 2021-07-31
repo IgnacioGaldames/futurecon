@@ -2,20 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Futurecon SF"
 theme = "Fcsf21"
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    pre = "pen-tool"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    pre = "tag"
-    url = "/tags/"
-    weight = 3
-sectionPagesMenu = "main"
+relativeURLS = true
+[module]
+	[[module.mounts]]
+		source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+		target = "assets/js/bootstrap.bundle.min.js"

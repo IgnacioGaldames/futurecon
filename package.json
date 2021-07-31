@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "futurecon sf website",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "test"
