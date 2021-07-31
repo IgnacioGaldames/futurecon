@@ -2,7 +2,9 @@
 	{{- partial "head/redirect.html" . -}}
 	{{- partial "head/google-tag-manager-head.html" . -}}
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="{{ .Site.Title }}" />
 	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
 	{{ $style := resources.Get "sass/main.sass" | toCSS  $options | minify }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
