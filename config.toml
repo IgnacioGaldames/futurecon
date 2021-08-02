@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Futurecon SF"
-theme = "Fcsf21"
+theme = "fcsf21"
 relativeURLS = true
 [module]
 	[[module.mounts]]
