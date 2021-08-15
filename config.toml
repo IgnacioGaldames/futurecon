@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Futurecon SF"
+title = "Futurecon 2021"
 theme = "fcsf21"
 relativeURLS = true
 [module]
@@ -10,3 +10,5 @@ relativeURLS = true
 [Params]
 	#redirect = "http://futureconsf.com"
 	googleTagManager = "GTM-TLCXCPH"
+[markup.goldmark.renderer] 
+	unsafe= true
