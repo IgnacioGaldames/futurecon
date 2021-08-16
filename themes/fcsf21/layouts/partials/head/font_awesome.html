@@ -1,0 +1,3 @@
+<!-- JavaScript and dependencies -->
+{{ $fontAwesome := resources.Get "js/fontawesome.min.js"  | resources.Minify}}
+<script src="{{$fontAwesome.RelPermalink}}" defer></script>

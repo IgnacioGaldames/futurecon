@@ -4,7 +4,9 @@
   "description": "futurecon sf website",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0"
   },
   "devDependencies": {},
   "scripts": {
