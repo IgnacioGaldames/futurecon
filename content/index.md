@@ -2,6 +2,7 @@
 #redirect: http://futureconsf.com
 Title: Decolonize the future
 mainID: futurecon2021
+youtubeVideos: ["K_u8MZvZ-fI", "UDwGCEpgeK0"]
 ---
 
 Save the date! The second edition of the FutureCon is scheduled to take place from September the 3rd to the 5th of 2021.
@@ -20,8 +21,3 @@ The Con happened at Futurecon YouTube Channel. And FutureTalks is ongoing there.
 Follow us at Twitter and help us spread the word: @futureconsf.
 
 Join our Discord channel to engange in discussions about the con, the future, and science fiction. Also, subscribe to our newsletter below.
-
-<div class="row">
-  <div class="col-md"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K_u8MZvZ-fI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-  <div class="col-md"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UDwGCEpgeK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</div>

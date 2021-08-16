@@ -1,0 +1,19 @@
+{{ if .Params.youtubeVideos }}
+<section class="container-fluid bg-dark">
+	<div class="container py-3 ">
+	<div class="row">			
+		{{ range .Params.youtubeVideos }}
+			<!-- The . represents an element in $array -->
+			<div class="col-md-6 mx-auto my-3">
+				<div class="ratio ratio-16x9">
+					<iframe src="https://www.youtube-nocookie.com/embed/{{ . }}" class="rounded shadow"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				</div>
+			</div>		
+		{{ end }}
+	</div>
+	</div>
+</section>
+{{ end }}
