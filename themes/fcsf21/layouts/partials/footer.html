@@ -1,3 +1,12 @@
+<footer class="footer py-3 shadow bg-dark text-muted " id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				{{ .Site.Title }}
+			</div>
+		</div>
+	</div>
+</footer>
 <!-- JavaScript and dependencies -->
 {{ $bootstrapjs := resources.Get "js/bootstrap.bundle.min.js"  | resources.Minify}}
 <script src="{{$bootstrapjs.RelPermalink}}" defer></script>
