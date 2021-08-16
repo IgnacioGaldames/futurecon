@@ -21,5 +21,9 @@ relativeURLS = true
 	googleTagManager = "GTM-TLCXCPH"
 	tinyLetter = true
 	tinyLetterUser = "futureconsf"
+	youtube = "futureconsf"
+	facebook = ""
+	twitter = "futureconsf"
+	discord = "8VxFjb5"
 [markup.goldmark.renderer] 
 	unsafe= true
