@@ -3,6 +3,7 @@
 Title: Decolonize the future
 mainID: futurecon2021
 youtubeVideos: ["K_u8MZvZ-fI", "UDwGCEpgeK0"]
+googleMap: "111aSUuiqVbsZZuZvaMovL5X18zYCDfmo"
 ---
 
 Save the date! The second edition of the FutureCon is scheduled to take place from September the 3rd to the 5th of 2021.
