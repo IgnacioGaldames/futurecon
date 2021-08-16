@@ -10,5 +10,7 @@ relativeURLS = true
 [Params]
 	#redirect = "http://futureconsf.com"
 	googleTagManager = "GTM-TLCXCPH"
+	tinyLetter = true
+	tinyLetterUser = "futureconsf"
 [markup.goldmark.renderer] 
 	unsafe= true

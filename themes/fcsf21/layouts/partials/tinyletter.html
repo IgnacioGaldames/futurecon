@@ -1,0 +1,31 @@
+{{ if .Site.Params.tinyLetter  }}
+	<section class="container-fluid bg-light">
+		<div class="container py-3 ">
+			<div class="row">
+				<div class="col-md-6 mx-auto">
+					<form 
+					action="https://tinyletter.com/{{.Params.tinyLetterUser}}" method="post" target="popupwindow"
+					onsubmit="window.open('https://tinyletter.com/{{.Params.tinyLetterUser}}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+					<label for="tlemail" class="form-label">Email address</label>
+					<input type="text" class="form-control" name="email" id="tlemail" />
+					<div id="emailHelp" class="form-text">Join the FutureCon newsletter</div>
+					<input type="hidden" value="1" name="embed" />
+					<div class="text-center">
+						<div class="btn-group mt-3 text-center">
+							<button type="submit" value="" class="btn btn-primary">
+								<i class="far fa-envelope"></i>
+								<span>Subscribe</span>
+							</button>
+							<a href="" class="btn btn-primary">
+								<i class="fab fa-paypal"></i>
+								<span>Support FutureCon</span>
+							</a>
+						</div>
+					</div>
+					
+				</form>
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}
