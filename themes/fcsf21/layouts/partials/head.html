@@ -1,6 +1,7 @@
 <head>
 	{{- partial "head/redirect.html" . -}}
-	{{- partial "head/google-tag-manager-head.html" . -}}
+	{{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }}
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,5 +13,6 @@
 	{{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 	<title>{{ $title }}</title>
 	{{- partial "head/font_awesome.html" . -}}
+
 </head>
 
