@@ -4,6 +4,8 @@ title = "Futurecon 2021"
 theme = "fcsf21"
 relativeURLS = true
 GoogleAnalytics = "GTM-TLCXCPH"
+description = 'Decolonize the future'
+#images = ['site-feature-image.jpg']
 [module]
 	[[module.mounts]]
 		source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -25,5 +27,8 @@ GoogleAnalytics = "GTM-TLCXCPH"
 	facebook = ""
 	twitter = "futureconsf"
 	discord = "8VxFjb5"
+
+[taxonomies]
+series = 'series'
 [markup.goldmark.renderer] 
 	unsafe= true
