@@ -29,6 +29,6 @@ description = 'Decolonize the future'
 	discord = "8VxFjb5"
 
 [taxonomies]
-series = 'series'
+	series = 'series'
 [markup.goldmark.renderer] 
 	unsafe= true

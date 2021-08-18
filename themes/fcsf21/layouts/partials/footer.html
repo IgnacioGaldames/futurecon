@@ -1,11 +1,26 @@
 <footer class="footer py-3 shadow bg-dark text-muted " id="footer">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-6">
 				{{ .Site.Title }}
-        {{ range .Params.youtubeVideos }}
-          <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-        {{end}}
+			</div>
+			<div class="col-md 6 d-flex justify-content-end">
+				{{ if .Site.Params.youtube }}
+					<a href="https://www.youtube.com/{{ .Site.Params.youtube }}" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-youtube"></i>
+					</a> 
+				{{end}}
+				{{ if .Site.Params.twitter }}
+					<a href="https://www.twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-twitter"></i>
+					</a> 
+				{{end}}
+				{{ if .Site.Params.facebook }}
+					<a href="https://www.facebook.com/{{ .Site.Params.facebook }}" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-facebook"></i>
+					</a> 
+				{{end}}
+				{{ if .Site.Params.discord }}
+					<a href="https://www.discord.com/invite/{{ .Site.Params.discord }}" target="_blank" rel="noopener noreferrer" class="mx-2"><i class="fab fa-discord"></i>
+					</a> 
+				{{end}}
 			</div>
 		</div>
 	</div>
