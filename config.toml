@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "localhost:1313"
 languageCode = "en-us"
 title = "Futurecon 2021"
 theme = "fcsf21"
@@ -32,3 +32,12 @@ description = 'Decolonize the future'
 	series = 'series'
 [markup.goldmark.renderer] 
 	unsafe= true
+[menu]
+[[menu.main]]
+identifier = 'home'
+name = 'about hugo'
+pre = "<i class='fa fa-heart'></i>"
+url = '/'
+weight = -110
+[menu.main.params]
+class = 'highlight-menu-item'
