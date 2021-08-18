@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Futurecon SF</title>
+    <title>Futurecon 2021</title>
     <link>http://example.org/</link>
-    <description>Recent content on Futurecon SF</description>
+    <description>Recent content on Futurecon 2021</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The future happens everywhere</title>
+      <title>Decolonize the future</title>
       <link>http://example.org/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/</guid>
-      <description>William Gibson once said that the future is already here, it’s just not evenly distributed. Geographical location and wealth could indeed limit access to considerable advances in technology. However, imagination is a more subtle power. It does not know borders or languages. From Beijing to Lagos, from Rio de Janeiro to Los Angeles, ideas are flourishing in the form of stories.
-In the 21st century, a worldwide pandemic demands realists of a larger reality.</description>
+      <description>Save the date! The second edition of the FutureCon is scheduled to take place from September the 3rd to the 5th of 2021.
+This year we want to engage with even more native innovators and storytellers that make Science Fiction happen and flourish in their own language and markets. We want to build the tools that will reshape our own imagination, set up creative networks, and make room for independent voices, crafting publishing alternatives and self-sustainable connections to “decolonize the future”.</description>
     </item>
     
   </channel>
