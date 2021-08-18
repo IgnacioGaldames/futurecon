@@ -1,6 +1,5 @@
 {{ if .Params.youtubeVideos }}
 <section class="container-fluid bg-dark" id="youtube">
-	<div class="container">
 	<div class="row">			
 		{{ range .Params.youtubeVideos }}
 			<!-- The . represents an element in $array -->
@@ -13,7 +12,6 @@
 				</div>
 			</div>		
 		{{ end }}
-	</div>
 	</div>
 </section>
 {{ end }}

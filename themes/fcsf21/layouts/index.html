@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<section class="container-fluid" id=" {{ .Params.mainID }}">
+	<section class="container" id=" {{ .Params.mainID }}">
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="h1 text-center">{{ .Title }}</h1>
@@ -11,6 +11,7 @@
 			</div>
 		</div>
 	</section>
+	{{- partial "social_networks.html" . -}}
 	{{- partial "tinyletter.html" . -}}
 	{{- partial "youtube_home.html" . -}}
 	{{- partial "google_map.html" . -}}

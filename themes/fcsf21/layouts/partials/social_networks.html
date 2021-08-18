@@ -1,0 +1,42 @@
+{{ if .Params.youtubeVideos }}
+<section class="container-fluid py-3 bg-secondary" id="youtube">
+	<div class="container">
+		<div class="row mb-3">
+			<div class="col-md-12 text-center">
+				<h3>The future happens everywhere.</h3>
+				<h5> That’s why we are here.</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 mx-auto text-center">
+				<div class="btn-group">
+					{{ if .Site.Params.youtube }}
+						<a href="https://www.youtube.com/{{ .Site.Params.youtube }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
+							<i class="fab fa-youtube"></i>
+							<span>{{ .Site.Params.youtube }}</span>
+						</a> 
+					{{end}}
+					{{ if .Site.Params.twitter }}
+						<a href="https://www.twitter.com/{{ .Site.Params.twitter }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
+							<i class="fab fa-twitter"></i>
+							<span>@{{ .Site.Params.twitter }}</span>
+						</a> 
+					{{end}}
+					{{ if .Site.Params.facebook }}
+						<a href="https://www.facebook.com/{{ .Site.Params.facebook }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
+							<i class="fab fa-facebook"></i>
+							<span>{{ .Site.Params.facebook }}</span>
+						</a> 
+					{{end}}
+					{{ if .Site.Params.discordInviteCode }}
+						<a href="https://www.discord.com/invite/{{ .Site.Params.discordInviteCode }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-dark">
+							<i class="fab fa-discord"></i>
+							<span>Join our Discord Server</span>
+						</a> 
+					{{end}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
