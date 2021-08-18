@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Futurecon 2021</title>
+    <title>Decolonize the future on Futurecon 2021</title>
     <link>http://example.org/</link>
-    <description>Recent content on Futurecon 2021</description>
+    <description>Recent content in Decolonize the future on Futurecon 2021</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Decolonize the future</title>
-      <link>http://example.org/</link>
+      <title>Support FUTURE·CON▸</title>
+      <link>http://example.org/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/</guid>
-      <description>Save the date! The second edition of the FutureCon is scheduled to take place from September the 3rd to the 5th of 2021.
-This year we want to engage with even more native innovators and storytellers that make Science Fiction happen and flourish in their own language and markets. We want to build the tools that will reshape our own imagination, set up creative networks, and make room for independent voices, crafting publishing alternatives and self-sustainable connections to “decolonize the future”.</description>
+      <guid>http://example.org/support/</guid>
+      <description>Futurecon is free. It will generate no profit or revenue whatsoever.
+However, contributions are more than welcome!
+You can donate $10 or as much as you can to help us cover expenses.</description>
     </item>
     
   </channel>
